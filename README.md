@@ -19,3 +19,4 @@ From these results, the proposed scheme can improve the overall performance by e
 
 
 ##### Network Architecture
+![architecture figure](./images/architecture.jpg)
