@@ -27,11 +27,12 @@ From these results, the proposed scheme can improve the overall performance by e
 ---
 
 # Training
-<pre><code>	bash tools/dist_train.sh configs/depthformer/depthformer_a.py 4    </code></pre>
+<pre><code>bash tools/dist_train.sh configs/depthformer/depthformer_a.py 4    </code></pre>
 
 ---
 
 # Testing
+<pre><code>bash tools/dist_test.sh  configs/depthformer/depthformer_v_kitti.py  ckpt/depthformer_a_kitti.pth 4    </code></pre>
 
 ---
 
