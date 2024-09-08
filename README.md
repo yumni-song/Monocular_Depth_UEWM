@@ -1,1 +1,1 @@
-# MDE_UEWM
+# Enhanced Monocular Depth Estimation Network Based on Uncertainty Edge Weighting Mask.
