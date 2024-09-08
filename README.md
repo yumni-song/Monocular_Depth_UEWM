@@ -27,6 +27,9 @@ From these results, the proposed scheme can improve the overall performance by e
 ---
 
 # Training
+'''
+tools/dist_train.sh
+'''
 
 ---
 
