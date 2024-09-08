@@ -27,7 +27,7 @@ From these results, the proposed scheme can improve the overall performance by e
 ---
 
 # Training
-<pre><code>	{code}    </code></pre>
+<pre><code>	bash tools/dist_train.sh configs/depthformer/depthformer_a.py 4    </code></pre>
 
 ---
 
