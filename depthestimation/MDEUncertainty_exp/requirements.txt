@@ -1,8 +1,0 @@
-torch
-torchvision
-tensorboardX
-opencv-python
-pandas
-timm
-einops
-scipy
