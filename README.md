@@ -32,7 +32,7 @@ From these results, the proposed scheme can improve the overall performance by e
 | DepthFormer+UEWM | 0.050 | 0.144	| 2.105 | [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
 | GEDepth | 0.048| 0.142 | 2.050 | [[Link]](https://github.com/qcraftai/gedepth/tree/main) |
 | GEDepth+UEWM | 0.047 | 0.138	| 2.033 | [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
-| MDEUncertainty | 0.052| 0.156 | 2.133 | [[Link]](https://github.com/qcraftai/gedepth/tree/main) |
+| MDEUncertainty | 0.052| 0.156 | 2.133 | [[Link]](https://github.com/XiangMochu/MDEUncertainty) |
 | MDEUncertainty+UEWM | 0.049 | 0.142	| 2.097 | [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
 
 * DDAD
@@ -84,4 +84,10 @@ CHECKPOINT_FILE means pretrained weight file.
   
 ---
 
+# Acknowledgements
+
+The codes are heavily based on DepthFormer, GEDepth, and MDEUncertainty. Thanks for their awesome works.
+* https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox
+* https://github.com/qcraftai/gedepth/tree/main
+* https://github.com/XiangMochu/MDEUncertainty
 
