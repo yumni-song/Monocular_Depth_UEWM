@@ -29,11 +29,9 @@ From these results, the proposed scheme can improve the overall performance by e
 | Model |  Abs Rel | Sq Rel |  RMSE | Checkpoint | 
 | ------| -----| ------- | ------ | -------------|
 | DepthFormer | 0.052| 0.156| 2.133| [[Link]](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox) |
-| DepthFormer+UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
-| GEDepth | 0.052| 0.156| 2.133| [[Link]](https://github.com/qcraftai/gedepth/tree/main) |
-| GEDepth+UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
-| MDEUncertainty | 0.052| 0.156| 2.133| [[Link]](https://github.com/XiangMochu/MDEUncertainty) |
-| MDEUncertainty+UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
+| DepthFormer+UEWM | 0.050 | 0.144	| 2.105 | [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
+| GEDepth | 0.048| 0.142 | 2.050 | [[Link]](https://github.com/qcraftai/gedepth/tree/main) |
+| GEDepth+UEWM | 0.047 | 0.138	| 2.033 | [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
 
 ![experiments figure](./images/ExperimentalResults/cap_qual.JPG)
 
