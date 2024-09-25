@@ -53,23 +53,36 @@ From these results, the proposed scheme can improve the overall performance by e
 # Training
 
 * DepthFormer+proposed mehtod run
-<pre><code>
-  cd depthformer_exp
-  bash tools/dist_train.sh depthformer_exp/configs/depthformer/depthformer_a.py 4    </code></pre>
+<pre><code>cd depthformer_exp
+  bash tools/dist_train.sh configs/depthformer/depthformer_swinl_22k_w7_kitti.py 4    </code></pre>
 
 * GEDepth+proposed mehtod run
-<pre><code>bash tools/dist_train.sh depthformer_exp/configs/depthformer/depthformer_a.py 4    </code></pre>
+<pre><code>cd gedepth_exp
+  bash tools/dist_train.sh configs/depthformer/depthformer_a.py 4    </code></pre>
 
 * MDEUncertainty+proposed mehtod run
-<pre><code>bash tools/dist_train.sh depthformer_exp/configs/depthformer/depthformer_a.py 4    </code></pre>
+<pre><code>cd mdeuncertainty_exp
+  python train.py --dataset kitti --encoder swin --reg_mode lin_cls --reg_supervision regression_l1 --prob_supervision soft_label --uncert_supervision error_uncertainty_ranking    </code></pre>
   
 ---
 
 # Testing
-<pre><code>
-  cd depthformer_exp
-  bash tools/dist_test.sh  configs/depthformer/depthformer_v_kitti.py  ckpt/depthformer_a_kitti.pth 4    </code></pre>
 
+* DepthFormer+proposed mehtod run
+<pre><code>cd depthformer_exp
+  python tools/test.py configs/depthformer/depthformer_swinl_22k_w7_kitti.py ${CHECKPOINT_FILE}    </code></pre>
+
+* GEDepth+proposed mehtod run
+<pre><code>cd gedepth_exp
+  bash tools/dist_test.sh  configs/depthformer/depthformer_a.py ${CHECKPOINT_FILE} 1    </code></pre>
+
+* MDEUncertainty+proposed mehtod run
+<pre><code>cd mdeuncertainty_exp
+  python eval.py ${CHECKPOINT_FILE} </code></pre>
+
+* Optional arguments
+  CHECKPOINT_FILE: it means pretrained weight file.
+  
 ---
 
 
