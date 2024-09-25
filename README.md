@@ -33,8 +33,6 @@ From these results, the proposed scheme can improve the overall performance by e
 | GEDepth | 0.048| 0.142 | 2.050 | [[Link]](https://github.com/qcraftai/gedepth/tree/main) |
 | GEDepth+UEWM | 0.047 | 0.138	| 2.033 | [[Google Drive]](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing)
 
-![experiments figure](./images/ExperimentalResults/cap_qual.JPG)
-
 
 * DDAD
   
@@ -44,6 +42,9 @@ From these results, the proposed scheme can improve the overall performance by e
 | DepthFormer+UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]](-)
 | GEDepth | 0.052| 0.156| 2.133| [[Link]](https://github.com/qcraftai/gedepth/tree/main) |
 | GEDepth+UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]](-)
+
+![experiments figure](./images/ExperimentalResults/cap_qual.JPG)
+
 
 
 ---
