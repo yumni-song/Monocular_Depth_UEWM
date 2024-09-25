@@ -35,7 +35,7 @@ From these results, the proposed scheme can improve the overall performance by e
 | MDEUncertainty | 0.052| 0.156| 2.133| [[Link]](https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox) |
 | MDEUncertainty + UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]]([https://drive.google.com/drive/folders/1XQRl7AtSBBIPoXtZOh87M_LG0iAJPDl_?usp=sharing](https://drive.google.com/drive/folders/1P_Y5Plzu9KsA-8mrzR2n0sDq5w8xE4nl?usp=sharing))
 
-![experiments figure](./images/ExperimentalResults/cap_qual.jpg)
+![experiments figure](./images/ExperimentalResults/cap_qual.JPG)
 
 ---
 
