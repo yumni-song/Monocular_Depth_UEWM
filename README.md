@@ -7,7 +7,7 @@
 
 # Summary of paper
 
-##### Abstract
+#### Abstract
 > Depth estimation acts as an important factor for understanding spatial relations in the field of computer vision. In particular, it plays a key role in detecting obstacles and planning safe routes in autonomous driving technology. To ensure stability, improving the accuracy of depth estimation is emerging as an important issue, and research direction in the field of computer vision is also developing with the aim of improving accuracy.
 Based on the analysis of an outdoor dataset in road driving, we investigate that depth network is difficult to predict accurate depth in distant regions.
 Accordingly, this thesis aims to improve the overall performance by improving depth prediction accuracy in far-distance areas. For this purpose, we devise new modules in the encoder and decoder, respectively.
@@ -18,11 +18,11 @@ To verify this, the performance evaluation on the distant region is taken for sh
 From these results, the proposed scheme can improve the overall performance by emphasizing the feature of the far-distant region.
 
 
-##### Network Architecture
+#### Network Architecture
 ![architecture figure](./images/architecture.jpg)
 
 
-##### Experimental Results
+#### Experimental Results
 
 * KITTI
   
@@ -45,8 +45,6 @@ From these results, the proposed scheme can improve the overall performance by e
 | GEDepth+UEWM | 0.049 | 0.144	| 2.061| [[Google Drive]](-)
 
 ![experiments figure](./images/ExperimentalResults/cap_qual.JPG)
-
-
 
 ---
 
@@ -86,7 +84,7 @@ CHECKPOINT_FILE means pretrained weight file.
 
 # Acknowledgements
 
-The codes are heavily based on DepthFormer, GEDepth, and MDEUncertainty. Thanks for their awesome works.
+The codes are heavily based on DepthFormer, GEDepth, and MDEUncertainty. I appreciate their outstanding work.
 * https://github.com/zhyever/Monocular-Depth-Estimation-Toolbox
 * https://github.com/qcraftai/gedepth/tree/main
 * https://github.com/XiangMochu/MDEUncertainty
